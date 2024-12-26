@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-const WS_URL = "ws://localhost:8080";
+const WS_URL = "https://40f5-1-187-225-47.ngrok-free.app";
 
 export const useSocket = () => {
   const [socket, setSocket] = useState<WebSocket | null>();
